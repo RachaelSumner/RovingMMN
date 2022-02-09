@@ -135,7 +135,7 @@ end
 
 %%% VISUAL DISTRACTOR TASK SETUP
 
-tshow = [2:0.5:5]; % Creates a vector of luminance change times 2-5 s 
+tshow = [30:15:90]; % Creates a vector of luminance change times 2-5 s 
 tlonger = repmat(tshow, 40); % Creates >~15 min of changes 
 ltshow = length(tlonger);
 tshow = tlonger(randperm(ltshow)); %Pseudorandomise  
